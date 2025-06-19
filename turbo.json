@@ -1,6 +1,9 @@
 {
   "$schema": "https://turborepo.com/schema.json",
   "tasks": {
+    "lint": {
+      "outputs": []
+    },
     "build": {
       "outputs": ["dist/**"]
     },
@@ -10,6 +13,9 @@
     "dev": {
       "persistent": true,
       "cache": false
+    },
+    "format:check": {
+      "outputs": []
     }
   }
 }
